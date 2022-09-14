@@ -1,4 +1,4 @@
-# cst438-Register-backend-Christopher-Bray
+
 CST438 Software Engineering California State University Monterey Bay
 Registration service project
 Users can view their course schedule and add/drop courses
