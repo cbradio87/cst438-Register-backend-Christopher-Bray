@@ -50,7 +50,6 @@ public class ScheduleController {
 	public ScheduleDTO getSchedule( @RequestParam("year") int year, @RequestParam("semester") String semester ) {
 		System.out.println("/schedule called.");
 		String student_email = "test@csumb.edu";   // student's email 
-		
 		Student student = studentRepository.findByEmail(student_email);
 		if (student != null) {
 			System.out.println("/schedule student "+student.getName()+" "+student.getStudent_id());

@@ -3,11 +3,9 @@ package com.cst438.service;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.client.RestTemplate;
 
-import com.cst438.domain.EnrollmentDTO;
-
-
 public class GradebookServiceREST extends GradebookService {
 
+	@SuppressWarnings("unused")
 	private RestTemplate restTemplate = new RestTemplate();
 
 	@Value("${gradebook.url}")
